@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.rel {
+    width: 600px;
+    height: 600px;
+    background: orange;
+    border: 3px solid red;
+    position: relative;
+    top: 400px;
+    left: 400px;
+}
+
+.door {
+    width: 150px;
+    height: 230px;
+    background: burlywood;
+    border: 2px solid black;
+    position: absolute;
+    bottom: 0;
+    left: 100px;
+}
+
+.window {
+    background: rgb(81, 177, 199);
+    border: 2px solid black;
+    position: absolute;
+}
+
+.win1 {
+    width: 60px;
+    height: 60px;
+    bottom: 240px;
+    right: 20px;
+}
+
+.win2 {
+    width: 60px;
+    height: 60px;
+    right: 20px;
+    bottom: 300px;
+}
+
+.win3 {
+    width: 60px;
+    height: 60px;
+    right: 80px;
+    bottom: 300px;
+}
+
+.win4 {
+    width: 60px;
+    height: 60px;
+    right: 80px;
+    bottom: 240px;
+}
+
+.win5 {
+    width: 60px;
+    height: 60px;
+    bottom: 240px;
+    left: 380px;
+}
+
+.win6 {
+    width: 60px;
+    height: 60px;
+    bottom: 300px;
+    left: 380px;
+}
+
+.win7 {
+    width: 60px;
+    height: 60px;
+    left: 320px;
+    bottom: 240px;
+}
+
+.win8 {
+    width: 60px;
+    height: 60px;
+    left: 320px;
+    bottom: 300px;
+}
+
+.roof {
+    width: 0;
+    height: 0;
+    position: absolute;
+    left: 400px;
+    top: 100px;
+    border-top: 100px solid transparent;
+    border-right: 300px solid transparent;
+    border-bottom: 200px solid green;
+    border-left: 300px solid transparent;
+}
